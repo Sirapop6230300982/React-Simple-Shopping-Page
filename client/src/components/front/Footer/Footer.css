@@ -1,0 +1,12 @@
+.footer {
+  display: fixed;
+  font-family: "Audiowide", sans-serif;
+  width: 80%;
+  background-color: rgb(47, 38, 136);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  height: 30vh;
+  font-size: 30px;
+  margin: auto;
+  margin-top: 20px;
+}

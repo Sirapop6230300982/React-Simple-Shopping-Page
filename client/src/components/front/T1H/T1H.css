@@ -1,0 +1,113 @@
+.products-T1H {
+  margin: 20px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgb(47, 38, 136);
+  border-radius: 5px;
+}
+
+.card-T1H {
+  width: 680px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px;
+  margin: 40px;
+  background-color: white;
+}
+
+.product-image-T1H {
+  width: 100%;
+  max-width: 700px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  margin: auto;
+}
+
+.product-name-T1H {
+  text-transform: uppercase;
+  margin: 10px 0px;
+  font-weight: bold;
+}
+
+.product-choice-T1H {
+  margin: 10px 0px;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.product-add-button-T1H {
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 50px;
+  display: block;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 10px auto;
+}
+
+.product-add-button-T1H:hover {
+  background-color: rgb(204, 204, 204);
+  color: black;
+}
+
+.product-add-button-T1H:active {
+  transform: translateY(2px);
+}
+
+.card-T1H-Side {
+  width: 450px;
+  height: 175px;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px;
+  margin: 20px;
+  background-color: white;
+}
+
+.product-image-T1H-side {
+  width: 100%;
+
+  display: block;
+  object-fit: cover;
+  margin: auto;
+}
+
+.product-back-button {
+  color: white;
+  margin-left: 0px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: black;
+  cursor: pointer;
+}
+
+.product-back-button:hover {
+  background-color: rgb(204, 204, 204);
+  color: black;
+}
+
+.back-home {
+  margin-left: 700px;
+  margin-right: 700px;
+}
+
+.back-T1H {
+  margin-top: 50px;
+  margin-left: 700px;
+  margin-right: 700px;
+  margin-bottom: 50px;
+  width: 500px;
+}

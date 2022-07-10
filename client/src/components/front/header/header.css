@@ -1,0 +1,51 @@
+.header {
+  position: sticky;
+  top: 0;
+  min-height: 80px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color: rgb(47, 38, 136);
+}
+
+.logo {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  padding-left: 40px;
+  font-size: 50px;
+  font-family: "Audiowide", sans-serif;
+}
+
+.header-links {
+  margin-top: 10px;
+  display: flex;
+}
+
+.header-links ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 35px;
+}
+
+.header-links ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  padding: 0px 15px;
+  font-family: "Audiowide", sans-serif;
+}
+
+.header-links ul li a:hover {
+  color: rgb(34, 167, 255);
+}
+
+.cart-length {
+  margin: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  vertical-align: super;
+  color: rgb(255, 255, 255);
+}
